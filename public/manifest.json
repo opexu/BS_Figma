@@ -1,0 +1,12 @@
+{
+    "name": "BS_Figma",
+    "id": "1231372979727271413",
+    "api": "1.0.0",
+    "main": "code.js",
+    "capabilities": [],
+    "enableProposedApi": false,
+    "editorType": [
+        "figma"
+    ],
+    "ui": "index.html"
+}

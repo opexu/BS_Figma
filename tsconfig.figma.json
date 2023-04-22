@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "typeRoots": [
+            "./figma.config.ts",
+            "./node_modules/@figma"
+        ],
+        "outDir": "dist",
+        "target": "es6",
+        "useDefineForClassFields": true,
+        "skipLibCheck": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    },
+    "include": [
+        "src/figma/code.ts",
+    ],
+    "exclude": []
+}

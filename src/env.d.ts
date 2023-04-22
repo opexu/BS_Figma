@@ -6,3 +6,8 @@ declare module '*.vue' {
     const component: DefineComponent<{}, {}, any>
     export default component
 }
+
+// declare module 'THREE' {
+//     import * as THREE from 'three'
+//     export default THREE
+// }

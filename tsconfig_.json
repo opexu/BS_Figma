@@ -2,17 +2,17 @@
     "compilerOptions": {
         "typeRoots": [
             "./figma.config.ts",
-            "./node_modules/@figma",
+            "./node_modules/@figma"
         ],
-        "outDir": "dist",
         "target": "es6",
         "useDefineForClassFields": true,
         "skipLibCheck": true,
-        "module": "es6",
+        "module": "es2020",
         "moduleResolution": "node",
         "strict": true,
         "jsx": "preserve",
         "sourceMap": true,
+        "allowJs": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "lib": [
@@ -21,8 +21,9 @@
         ]
     },
     "include": [
-        "src/figma/code.ts",
-    ],
-    "exclude": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue"
     ]
 }

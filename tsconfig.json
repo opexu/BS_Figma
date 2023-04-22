@@ -1,23 +1,24 @@
 {
     "compilerOptions": {
         "typeRoots": [
-            "./figma.config.ts",
+            "./node_modules/@types",
             "./node_modules/@figma"
         ],
         "target": "es6",
         "useDefineForClassFields": true,
         "skipLibCheck": true,
-        "module": "es6",
+        "module": "es2020",
         "moduleResolution": "node",
         "strict": true,
         "jsx": "preserve",
         "sourceMap": true,
+        "allowJs": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "lib": [
             "es6",
             "dom"
-        ]
+        ],
     },
     "include": [
         "src/**/*.ts",

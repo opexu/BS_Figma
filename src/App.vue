@@ -1,14 +1,15 @@
 <template>
-<div>
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-    <RectangleCreatorDemo />
+<div class="w-full h-hit">
+    <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+    <!-- <RectangleCreatorDemo /> -->
+    <Main></Main>
 </div>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import RectangleCreatorDemo from './components/RectangleCreatorDemo.vue'
+import Main from './components/Main.vue';
+//import HelloWorld from './components/HelloWorld.vue'
+//import RectangleCreatorDemo from './components/RectangleCreatorDemo.vue'
 </script>
 
 <style>

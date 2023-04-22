@@ -4,16 +4,19 @@
     "description": "Your Figma Plugin",
     "main": "code.js",
     "scripts": {
-        "build": "tsc -p tsconfig.figma.json",
+        "build": "vue-tsc --noEmit && vite build && tsc -p tsconfig.figma.json",
         "buildvue": "vue-tsc --noEmit && vite build",
-        "watch": "npm run build -- --watch"
+        "watch": "npm run build -- --watch",
+        "buildvite": "vite build --config vite-ui.config.ts && vite build --config vite-code.config.ts"
     },
     "author": "Michail Tyurchev",
     "license": "",
     "devDependencies": {
         "@figma/plugin-typings": "^1.63.0",
+        "@types/three": "^0.150.2",
         "@vitejs/plugin-vue": "^4.0.0",
         "@vue/tsconfig": "^0.1.3",
+        "autoprefixer": "latest",
         "postcss": "latest",
         "postcss-import": "latest",
         "tailwindcss": "latest",
